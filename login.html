@@ -10,7 +10,10 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <style>
       body {
         width: 100%;
@@ -29,13 +32,12 @@
             class="navbar-nav d-flex flex-row justify-content-center align-items-center flex-wrap"
           >
             <li class="nav-item link-hover py-2 px-4">
-              <a href="index.html" class="nav-link text-white fw-medium">Home</a>
+              <a href="index.html" class="nav-link text-white fw-medium"
+                >Home</a
+              >
             </li>
             <li class="nav-item link-hover py-2 px-4 active">
-              <a
-                href="deals.html"
-                target="_blank"
-                class="nav-link text-white fw-medium"
+              <a href="deals.html" class="nav-link text-white fw-medium"
                 >Deals</a
               >
             </li>
@@ -62,7 +64,6 @@
             <li class="nav-item py-2 px-4">
               <a
                 href="login.html"
-                target="_blank"
                 class="nav-link text-white fw-medium btn px-3"
                 style="background-color: #255f38"
                 ><i class="bi bi-box-arrow-in-right me-2"></i>Login/Signup</a
@@ -73,14 +74,26 @@
       </nav>
     </header>
     <form class="container my-5 bg-white p-5 shadow-lg rounded">
-      <h2 class="text-center mb-5"><i class="bi bi-cart4 d-block display-3 text-success"></i>Fresh Basket</h2>
+      <h2 class="text-center mb-5">
+        <i class="bi bi-cart4 d-block display-3 text-success"></i>Fresh Basket
+      </h2>
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control border-success border-2" id="email" required />
+        <input
+          type="email"
+          class="form-control border-success border-2"
+          id="email"
+          required
+        />
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Password</label>
-        <input type="password" class="form-control border-success border-2" id="password" required />
+        <input
+          type="password"
+          class="form-control border-success border-2"
+          id="password"
+          required
+        />
       </div>
       <button type="submit" class="btn btn-success">Login</button>
       <p class="mt-3">
@@ -90,6 +103,65 @@
         Don’t have an account? <a href="register.html">Sign up now</a>
       </p>
     </form>
+    <!-- FOOTER -->
+    <footer class="bg-black py-5">
+      <div class="container d-flex justify-content-evenly align-items-center">
+        <ul class="list-unstyled d-flex flex-column gap-2">
+          <li class="text-white fw-bold">Categories</li>
+          <li>
+            <a href="index.html#vegetables" class="text-white text-decoration-none"
+              >Vegetables</a
+            >
+          </li>
+          <li>
+            <a href="index.html#fruits" class="text-white text-decoration-none">Fruits</a>
+          </li>
+          <li>
+            <a href="index.html#animal-based" class="text-white text-decoration-none"
+              >Animal Based</a
+            >
+          </li>
+          <li>
+            <a href="index.html#essentials" class="text-white text-decoration-none"
+              >Essentials</a
+            >
+          </li>
+        </ul>
+        <ul class="list-unstyled d-flex flex-column gap-2">
+          <li class="text-white fw-bold">Useful Links</li>
+          <li>
+            <a href="" class="text-white text-decoration-none">About Us</a>
+          </li>
+          <li>
+            <a href="" class="text-white text-decoration-none">Contact Us</a>
+          </li>
+          <li><a href="" class="text-white text-decoration-none">FAQs</a></li>
+          <li>
+            <a href="" class="text-white text-decoration-none"
+              >Privacy & Terms</a
+            >
+          </li>
+        </ul>
+        <ul class="list-unstyled d-flex flex-column gap-2">
+          <li class="text-white fw-bold">Useful Links</li>
+          <li><a href="" class="text-white text-decoration-none">Blog</a></li>
+          <li>
+            <a href="" class="text-white text-decoration-none">Careers</a>
+          </li>
+          <li>
+            <a href="" class="text-white text-decoration-none">Partners</a>
+          </li>
+          <li>
+            <a href="" class="text-white text-decoration-none">Franchise</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container mt-5 text-center">
+        <p class="text-white m-0 fw-bold">
+          Copyright &copy; Fresh Basket - 2024 - All Rights Reserved
+        </p>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
