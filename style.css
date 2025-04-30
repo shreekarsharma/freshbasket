@@ -15,9 +15,6 @@ header #brand h1 {
   letter-spacing: 7.5px;
   word-spacing: 5px;
 }
-header .navbar .navbar-nav .nav-item .btn {
-  background: #0f5132;
-}
 header .navbar .navbar-nav .link-hover:hover {
   background: #0f5132;
 }
